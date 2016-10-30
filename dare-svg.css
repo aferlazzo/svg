@@ -1,0 +1,469 @@
+.dbs div {
+    position:absolute;
+    left: 0;
+    width: inherit;
+}
+.dbs h2 {
+    text-align:right;
+    font-size: 1.2em;
+}
+.dbs div:nth-of-type(1) {
+    top:8.1rem;
+}
+.dbs div:nth-of-type(2) {
+    top: 14.8rem;
+}
+.dbs div:nth-of-type(3) {
+    top: 20rem;
+}
+.demand-planning-1,
+.demand-planning-2,
+.demand-planning-3,
+.demand-planning-4,
+.demand-planning-5,
+.demand-planning-6,
+.demand-planning-7,
+.demand-planning-8,
+.demand-planning-9,
+.demand-planning-10 {
+    animation-name: demand-planning-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.demand-planning-2 {
+    animation-delay: 1s;
+}
+.demand-planning-3 {
+    animation-delay: 2s;
+}
+.demand-planning-4 {
+    animation-delay: 3s;
+}
+.demand-planning-5 {
+    animation-delay: 4s;
+}
+.demand-planning-6 {
+    animation-delay: 5s;
+}
+.demand-planning-7 {
+    animation-delay: 6s;
+}
+.demand-planning-8 {
+    animation-delay: 7s;
+}
+.demand-planning-9 {
+    animation-delay: 8s;
+}
+.demand-planning-10 {
+    animation-delay: 9s;
+}
+@keyframes demand-planning-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(101px, 0);
+    }
+    20% {
+        transform: translate(101px, 55px);
+    }
+    30% {
+        transform: translate(144px, 55px);
+    }
+    40% {
+        transform: translate(144px, 8px);
+    }
+    50% {
+        transform: translate(185px, 8px);
+    }
+    60% {
+        transform: translate(185px, 95px);
+    }
+    100% {
+        transform: translate(185px, 95px);
+    }
+}
+.stsp-1,
+.stsp-2,
+.stsp-3,
+.stsp-4,
+.stsp-5,
+.stsp-6,
+.stsp-7,
+.stsp-8,
+.stsp-9,
+.stsp-10 {
+    animation-name: stsp-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.stsp-2 {
+    animation-delay: 1s;
+}
+.stsp-3 {
+    animation-delay: 2s;
+}
+.stsp-4 {
+    animation-delay: 3s;
+}
+.stsp-5 {
+    animation-delay: 4s;
+}
+.stsp-6 {
+    animation-delay: 5s;
+}
+.stsp-7 {
+    animation-delay: 6s;
+}
+.stsp-8 {
+    animation-delay: 7s;
+}
+.stsp-9 {
+    animation-delay: 8s;
+}
+.stsp-10 {
+    animation-delay: 9s;
+}
+@keyframes stsp-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(0, 38px);
+    }
+    20% {
+        transform: translate(83px, 38px);
+    }
+    30% {
+        transform: translate(83px, 113px);
+    }
+    40%, 100% {
+        transform: translate(10px, 113px);
+    }
+}
+.product-catalog-1,
+.product-catalog-2,
+.product-catalog-3,
+.product-catalog-4,
+.product-catalog-5,
+.product-catalog-6,
+.product-catalog-7,
+.product-catalog-8,
+.product-catalog-9,
+.product-catalog-10 {
+    animation-name: product-catalog-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.product-catalog-2 {
+    animation-delay: 1s;
+}
+.product-catalog-3 {
+    animation-delay: 2s;
+}
+.product-catalog-4 {
+    animation-delay: 3s;
+}
+.product-catalog-5 {
+    animation-delay: 4s;
+}
+.product-catalog-6 {
+    animation-delay: 5s;
+}
+.product-catalog-7 {
+    animation-delay: 6s;
+}
+.product-catalog-8 {
+    animation-delay: 7s;
+}
+.product-catalog-9 {
+    animation-delay: 8s;
+}
+.product-catalog-10 {
+    animation-delay: 9s;
+}
+@keyframes product-catalog-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(-45px, 0);
+    }
+    20% {
+        transform: translate(-45px, -45px);
+    }
+    30% {
+        transform: translate(-94px, -45px);
+    }
+    40% {
+        transform: translate(-94px, 48px);
+    }
+    50%, 100% {
+        transform: translate(-185px, 48px);
+    }
+}
+.remedy-1,
+.remedy-2,
+.remedy-3,
+.remedy-4,
+.remedy-5,
+.remedy-6,
+.remedy-7,
+.remedy-8,
+.remedy-9,
+.remedy-10 {
+    animation-name: remedy-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.remedy-2 {
+    animation-delay: 1s;
+}
+.remedy-3 {
+    animation-delay: 2s;
+}
+.remedy-4 {
+    animation-delay: 3s;
+}
+.remedy-5 {
+    animation-delay: 4s;
+}
+.remedy-6 {
+    animation-delay: 5s;
+}
+.remedy-7 {
+    animation-delay: 6s;
+}
+.remedy-8 {
+    animation-delay: 7s;
+}
+.remedy-9 {
+    animation-delay: 8s;
+}
+.remedy-10 {
+    animation-delay: 9s;
+}
+@keyframes remedy-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(-44px, 0);
+    }
+    20% {
+        transform: translate(-44px, 56px);
+    }
+    30% {
+        transform: translate(-106px, 56px);
+    }
+    40% {
+        transform: translate(-106px, 4px);
+    }
+    50% {
+        transform: translate(-200px, 4px);
+    }
+    60%, 100% {
+        transform: translate(-200px, -40px);
+    }
+}
+.bpr-dsc-1,
+.bpr-dsc-2,
+.bpr-dsc-3,
+.bpr-dsc-4,
+.bpr-dsc-5,
+.bpr-dsc-6,
+.bpr-dsc-7,
+.bpr-dsc-8,
+.bpr-dsc-9,
+.bpr-dsc-10 {
+    animation-name: bpr-dsc-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.bpr-dsc-2 {
+    animation-delay: 1s;
+}
+.bpr-dsc-3 {
+    animation-delay: 2s;
+}
+.bpr-dsc-4 {
+    animation-delay: 3s;
+}
+.bpr-dsc-5 {
+    animation-delay: 4s;
+}
+.bpr-dsc-6 {
+    animation-delay: 5s;
+}
+.bpr-dsc-7 {
+    animation-delay: 6s;
+}
+.bpr-dsc-8 {
+    animation-delay: 7s;
+}
+.bpr-dsc-9 {
+    animation-delay: 8s;
+}
+.bpr-dsc-10 {
+    animation-delay: 9s;
+}
+@keyframes bpr-dsc-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(-78px, 0);
+    }
+    20% {
+        transform: translate(-78px, -80px);
+    }
+    30% {
+        transform: translate(-37px, -80px);
+    }
+    40%, 100% {
+        transform: translate(-37px, -160px);
+    }
+}
+.optimum-touch-1,
+.optimum-touch-2,
+.optimum-touch-3,
+.optimum-touch-4,
+.optimum-touch-5,
+.optimum-touch-6,
+.optimum-touch-7,
+.optimum-touch-8,
+.optimum-touch-9,
+.optimum-touch-10 {
+    animation-name: optimum-touch-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.optimum-touch-2 {
+    animation-delay: 1s;
+}
+.optimum-touch-3 {
+    animation-delay: 2s;
+}
+.optimum-touch-4 {
+    animation-delay: 3s;
+}
+.optimum-touch-5 {
+    animation-delay: 4s;
+}
+.optimum-touch-6 {
+    animation-delay: 5s;
+}
+.optimum-touch-7 {
+    animation-delay: 6s;
+}
+.optimum-touch-8 {
+    animation-delay: 7s;
+}
+.optimum-touch-9 {
+    animation-delay: 8s;
+}
+.optimum-touch-10 {
+    animation-delay: 9s;
+}
+@keyframes optimum-touch-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(30px, 0);
+    }
+    20% {
+        transform: translate(30px, 23px);
+    }
+    30% {
+        transform: translate(94px, 23px);
+    }
+    40% {
+        transform: translate(94px, 50px);
+    }
+    50% {
+        transform: translate(145px, 50px);
+    }
+    60% {
+        transform: translate(145px, 13px);
+    }
+    70%, 100% {
+        transform: translate(185px, 13px);
+    }
+}
+.ifd-1,
+.ifd-2,
+.ifd-3,
+.ifd-4,
+.ifd-5,
+.ifd-6,
+.ifd-7,
+.ifd-8,
+.ifd-9,
+.ifd-10 {
+    animation-name: ifd-keyframes;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.ifd-2 {
+    animation-delay: 1s;
+}
+.ifd-3 {
+    animation-delay: 2s;
+}
+.ifd-4 {
+    animation-delay: 3s;
+}
+.ifd-5 {
+    animation-delay: 4s;
+}
+.ifd-6 {
+    animation-delay: 5s;
+}
+.ifd-7 {
+    animation-delay: 6s;
+}
+.ifd-8 {
+    animation-delay: 7s;
+}
+.ifd-9 {
+    animation-delay: 8s;
+}
+.ifd-10 {
+    animation-delay: 9s;
+}
+@keyframes ifd-keyframes {
+
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(98px, 0);
+    }
+    20% {
+        transform: translate(98px, 42px);
+    }
+    30%, 100% {
+        transform: translate(210px, 42px);
+    }
+}
