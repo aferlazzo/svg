@@ -20,7 +20,7 @@
             position:absolute;
             top: 3em;
             left: 0;
-            width:100%;
+            width: 100%;
         }
     </style>
 </head>
@@ -32,10 +32,12 @@
     </header>
     <div class="pipes-wrapper">
         <!--
-            The Scalable Vector Graphic file is embedded inline here
+            The Scalable Vector Graphic file is inserted as an object here
+
+            to optimize svg file, use cli command "svgo -f ."
         -->
         <object type="image/svg+xml" data="dare.svg" class="dare flow">
-             <!-- fallback image in CSS -->
+            <!-- fallback image in CSS -->
         </object>
     </div>
 </div>

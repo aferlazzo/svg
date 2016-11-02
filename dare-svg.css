@@ -68,22 +68,19 @@
         transform: translate(101px, 0);
     }
     20% {
-        transform: translate(101px, 55px);
+        transform: translate(101px, 57px);
     }
     30% {
-        transform: translate(144px, 55px);
+        transform: translate(150px, 57px);
     }
     40% {
-        transform: translate(144px, 8px);
+        transform: translate(150px, 8px);
     }
     50% {
-        transform: translate(185px, 8px);
+        transform: translate(196px, 8px);
     }
-    60% {
-        transform: translate(185px, 95px);
-    }
-    100% {
-        transform: translate(185px, 95px);
+    60%, 100% {
+        transform: translate(196px, 95px);
     }
 }
 .stsp-1,
@@ -97,7 +94,7 @@
 .stsp-9,
 .stsp-10 {
     animation-name: stsp-keyframes;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -135,13 +132,13 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(0, 38px);
+        transform: translate(0, 39px);
     }
     20% {
-        transform: translate(83px, 38px);
+        transform: translate(82px, 39px);
     }
     30% {
-        transform: translate(83px, 113px);
+        transform: translate(82px, 113px);
     }
     40%, 100% {
         transform: translate(10px, 113px);
@@ -158,7 +155,7 @@
 .product-catalog-9,
 .product-catalog-10 {
     animation-name: product-catalog-keyframes;
-    animation-duration: 10s;
+    animation-duration: 10.5s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -196,19 +193,19 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(-45px, 0);
+        transform: translate(-52px, 0);
     }
     20% {
-        transform: translate(-45px, -45px);
+        transform: translate(-52px, -55px);
     }
     30% {
-        transform: translate(-94px, -45px);
+        transform: translate(-111px, -55px);
     }
     40% {
-        transform: translate(-94px, 48px);
+        transform: translate(-111px, 54px);
     }
     50%, 100% {
-        transform: translate(-185px, 48px);
+        transform: translate(-195px, 54px);
     }
 }
 .remedy-1,
@@ -222,7 +219,7 @@
 .remedy-9,
 .remedy-10 {
     animation-name: remedy-keyframes;
-    animation-duration: 10s;
+    animation-duration: 10.75s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -263,19 +260,19 @@
         transform: translate(-44px, 0);
     }
     20% {
-        transform: translate(-44px, 56px);
+        transform: translate(-44px, 60px);
     }
     30% {
-        transform: translate(-106px, 56px);
+        transform: translate(-102px, 60px);
     }
     40% {
-        transform: translate(-106px, 4px);
+        transform: translate(-102px, 8px);
     }
     50% {
-        transform: translate(-200px, 4px);
+        transform: translate(-190px, 8px);
     }
     60%, 100% {
-        transform: translate(-200px, -40px);
+        transform: translate(-190px, -40px);
     }
 }
 .bpr-dsc-1,
@@ -289,7 +286,7 @@
 .bpr-dsc-9,
 .bpr-dsc-10 {
     animation-name: bpr-dsc-keyframes;
-    animation-duration: 10s;
+    animation-duration: 8.75s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -327,16 +324,16 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(-78px, 0);
+        transform: translate(-98px, 0);
     }
     20% {
-        transform: translate(-78px, -80px);
+        transform: translate(-98px, -95px);
     }
     30% {
-        transform: translate(-37px, -80px);
+        transform: translate(-33px, -95px);
     }
     40%, 100% {
-        transform: translate(-37px, -160px);
+        transform: translate(-33px, -175px);
     }
 }
 .optimum-touch-1,
@@ -350,7 +347,7 @@
 .optimum-touch-9,
 .optimum-touch-10 {
     animation-name: optimum-touch-keyframes;
-    animation-duration: 10s;
+    animation-duration: 11.25s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -391,22 +388,22 @@
         transform: translate(30px, 0);
     }
     20% {
-        transform: translate(30px, 23px);
+        transform: translate(30px, 22px);
     }
     30% {
-        transform: translate(94px, 23px);
+        transform: translate(89px, 22px);
     }
     40% {
-        transform: translate(94px, 50px);
+        transform: translate(89px, 49px);
     }
     50% {
-        transform: translate(145px, 50px);
+        transform: translate(138px, 49px);
     }
     60% {
-        transform: translate(145px, 13px);
+        transform: translate(138px, 13px);
     }
     70%, 100% {
-        transform: translate(185px, 13px);
+        transform: translate(200px, 13px);
     }
 }
 .ifd-1,
@@ -420,7 +417,7 @@
 .ifd-9,
 .ifd-10 {
     animation-name: ifd-keyframes;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-delay: 0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -458,10 +455,10 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(98px, 0);
+        transform: translate(95px, 0);
     }
     20% {
-        transform: translate(98px, 42px);
+        transform: translate(95px, 42px);
     }
     30%, 100% {
         transform: translate(210px, 42px);
