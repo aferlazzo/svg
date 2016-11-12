@@ -65,22 +65,22 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(101px, 0);
+        transform: translate(91px, 0);
     }
     20% {
-        transform: translate(101px, 57px);
+        transform: translate(91px, 61px);
     }
     30% {
-        transform: translate(150px, 57px);
+        transform: translate(139px, 61px);
     }
     40% {
-        transform: translate(150px, 8px);
+        transform: translate(139px, 8px);
     }
     50% {
-        transform: translate(196px, 8px);
+        transform: translate(180px, 8px);
     }
     60%, 100% {
-        transform: translate(196px, 95px);
+        transform: translate(180px, 95px);
     }
 }
 .stsp-1,
@@ -132,16 +132,16 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(0, 39px);
+        transform: translate(0, 27px);
     }
     20% {
-        transform: translate(82px, 39px);
+        transform: translate(82px, 27px);
     }
     30% {
-        transform: translate(82px, 113px);
+        transform: translate(82px, 96px);
     }
     40%, 100% {
-        transform: translate(10px, 113px);
+        transform: translate(10px, 96px);
     }
 }
 .product-catalog-1,
@@ -193,19 +193,19 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(-52px, 0);
+        transform: translate(-34px, 0);
     }
     20% {
-        transform: translate(-52px, -55px);
+        transform: translate(-34px, -30px);
     }
     30% {
-        transform: translate(-111px, -55px);
+        transform: translate(-83px, -31px);
     }
     40% {
-        transform: translate(-111px, 54px);
+        transform: translate(-83px, 50px);
     }
     50%, 100% {
-        transform: translate(-195px, 54px);
+        transform: translate(-195px, 50px);
     }
 }
 .remedy-1,
@@ -257,22 +257,22 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(-44px, 0);
+        transform: translate(-29px, 0);
     }
     20% {
-        transform: translate(-44px, 60px);
+        transform: translate(-29px, 59px);
     }
     30% {
-        transform: translate(-102px, 60px);
+        transform: translate(-71px, 59px);
     }
     40% {
-        transform: translate(-102px, 8px);
+        transform: translate(-71px, 6px);
     }
     50% {
-        transform: translate(-190px, 8px);
+        transform: translate(-128px, 6px);
     }
     60%, 100% {
-        transform: translate(-190px, -40px);
+        transform: translate(-128px, -29px);
     }
 }
 .bpr-dsc-1,
@@ -324,16 +324,16 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(-98px, 0);
+        transform: translate(-75px, 0);
     }
     20% {
-        transform: translate(-98px, -95px);
+        transform: translate(-75px, -69px);
     }
     30% {
-        transform: translate(-33px, -95px);
+        transform: translate(-8px, -69px);
     }
     40%, 100% {
-        transform: translate(-33px, -175px);
+        transform: translate(-8px, -175px);
     }
 }
 .optimum-touch-1,
@@ -385,22 +385,22 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(30px, 0);
+        transform: translate(25px, 0);
     }
     20% {
-        transform: translate(30px, 22px);
+        transform: translate(25px, 20px);
     }
     30% {
-        transform: translate(89px, 22px);
+        transform: translate(76px, 20px);
     }
     40% {
-        transform: translate(89px, 49px);
+        transform: translate(76px, 49px);
     }
     50% {
-        transform: translate(138px, 49px);
+        transform: translate(120px, 49px);
     }
     60% {
-        transform: translate(138px, 13px);
+        transform: translate(120px, 13px);
     }
     70%, 100% {
         transform: translate(200px, 13px);
@@ -455,12 +455,15 @@
         transform: translate(0, 0);
     }
     10% {
-        transform: translate(95px, 0);
+        transform: translate(72px, 0);
     }
     20% {
-        transform: translate(95px, 42px);
+        transform: translate(72px, 42px);
     }
     30%, 100% {
         transform: translate(210px, 42px);
     }
 }
+
+
+body {}
