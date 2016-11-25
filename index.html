@@ -3,28 +3,7 @@
 <head>
     <title>DARE Infographic</title>
     <link href="favicon.ico" rel="shortcut icon" type="image/ico">
-    <style>
-        * {
-            margin:0;
-            padding: 0;
-        }
-        body {
-            background-color: #f2f2f2;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        header h1 {
-            text-align: center;
-            background-color: #f00;
-            color: #fff;
-            font-size: 1.2em;
-        }
-        .pipes-wrapper {
-            position:absolute;
-            top: 1.1em;
-            left: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="dare-svg.css">
 </head>
 
 <body>
@@ -42,6 +21,22 @@
             <!-- fallback image in CSS -->
         </object>
     </div>
+    <div id="toggle-animation">
+        <button onclick="toggle_animation()" class="btn">Toggle DARE Processing</button>
+    </div>
+    <div class="demand-planning-layer">
+        <div class="demand-planning-1 pause-animation"></div>
+        <div class="demand-planning-2 pause-animation"></div>
+        <div class="demand-planning-3 pause-animation"></div>
+        <div class="demand-planning-4 pause-animation"></div>
+        <div class="demand-planning-5 pause-animation"></div>
+        <div class="demand-planning-6 pause-animation"></div>
+        <div class="demand-planning-7 pause-animation"></div>
+        <div class="demand-planning-8 pause-animation"></div>
+        <div class="demand-planning-9 pause-animation"></div>
+        <div class="demand-planning-10 pause-animation"></div>
+    </div>
 </div>
+<script src="dare-script.js"></script>
 </body>
 </html></html>

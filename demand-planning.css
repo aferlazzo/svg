@@ -1,0 +1,78 @@
+#toggle-animation {
+    margin-top: 0px;
+    margin-left: 200px;
+    position: relative;
+    z-index:99;
+}
+.demand-planning-pipe {
+    position: absolute;
+    top: 1.8em;
+    left: 9.2em;
+}
+@keyframes dpkeyframes {
+    0% {
+        transform: translate(207px, 52px);
+    }
+    10% {
+        transform: translate(206px, 73px);
+    }
+    20% {
+        transform: translate(328px, 73px);
+    }
+    30% {
+        transform: translate(328px, 61px);
+    }
+    40% {
+        transform: translate(171px, 8px);
+    }
+    50% {
+        transform: translate(212px, 8px);
+    }
+    60%, 100% {
+        transform: translate(212px, 95px);
+    }
+}
+.demand-planning-1,
+.demand-planning-2,
+.demand-planning-3,
+.demand-planning-4,
+.demand-planning-5,
+.demand-planning-6,
+.demand-planning-7,
+.demand-planning-8,
+.demand-planning-9,
+.demand-planning-10 {
+//animation-play-state: paused;animation-timing-function: linear;animation-iteration-count: infinite;animation-name: dpkeyframes;animation-duration: 4s;height: .3em;width: .5em;background-color:#e48918;position: absolute;top: 7px;left: 6px;}
+.demand-planning-2 {
+    animation-delay: 1s;
+}
+.demand-planning-3 {
+    animation-delay: 2s;
+}
+.demand-planning-4 {
+    animation-delay: 3s;
+}
+.demand-planning-5 {
+    animation-delay: 4s;
+}
+.demand-planning-6 {
+    animation-delay: 5s;
+}
+.demand-planning-7 {
+    animation-delay: 6s;
+}
+.demand-planning-8 {
+    animation-delay: 7s;
+}
+.demand-planning-9 {
+    animation-delay: 8s;
+}
+.demand-planning-10 {
+    animation-delay: 9s;
+}
+.pause-animation {
+    animation-play-state: paused;
+}
+.start-animation {
+    animation-play-state: running;
+}

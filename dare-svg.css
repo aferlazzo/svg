@@ -1,20 +1,39 @@
-.dbs div {
-    position:absolute;
-    left: 0;
-    width: inherit;
+* {
+    margin:0;
+    padding: 0;
 }
-.dbs h2 {
-    text-align:right;
+body {
+    background-color: #f2f2f2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header h1 {
+    text-align: center;
+    background-color: #f00;
+    color: #fff;
     font-size: 1.2em;
 }
-.dbs div:nth-of-type(1) {
-    top:8.1rem;
+.pipes-wrapper {
+    position:absolute;
+    top: 1.1em;
+    left: 0;
+    width: 100%;
 }
-.dbs div:nth-of-type(2) {
-    top: 14.8rem;
+#toggle-animation {
+    margin-top: 67px;
+    margin-left: 3px;
+    position: absolute;
+    z-index: 99;
 }
-.dbs div:nth-of-type(3) {
-    top: 20rem;
+#toggle-animation .btn {
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.demand-planning-layer {
+    position: relative;
 }
 .demand-planning-1,
 .demand-planning-2,
@@ -26,6 +45,13 @@
 .demand-planning-8,
 .demand-planning-9,
 .demand-planning-10 {
+    width: 1.5em;
+    height: 0.5em;
+    border-radius: 0.6em;
+    background-color: #ea9112;
+    position: absolute;
+    top: 3.5em;
+    left: 23em;
     animation-name: demand-planning-keyframes;
     animation-duration: 10s;
     animation-delay: 0s;
@@ -62,27 +88,31 @@
 @keyframes demand-planning-keyframes {
 
     0% {
-        transform: translate(0, 0);
+        transform: translate(0, -7px);
     }
     10% {
-        transform: translate(91px, 0);
+        transform: translate(22em, -7px);
     }
     20% {
-        transform: translate(91px, 61px);
+        transform: translate(222px, 147px);
     }
     30% {
-        transform: translate(139px, 61px);
+        transform: translate(339px, 147px);
     }
     40% {
-        transform: translate(139px, 8px);
+        transform: translate(339px, 25px);
     }
     50% {
-        transform: translate(180px, 8px);
+        transform: translate(384px, 25px);
     }
-    60%, 100% {
-        transform: translate(180px, 95px);
+    60% {
+        transform: translate(440px, 25px);
+    }
+    70%, 100% {
+        transform: translate(440px, 220px);
     }
 }
+
 .stsp-1,
 .stsp-2,
 .stsp-3,
@@ -94,6 +124,7 @@
 .stsp-9,
 .stsp-10 {
     animation-name: stsp-keyframes;
+    animation-play-state: paused;
     animation-duration: 8s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -155,6 +186,7 @@
 .product-catalog-9,
 .product-catalog-10 {
     animation-name: product-catalog-keyframes;
+    animation-play-state: paused;
     animation-duration: 10.5s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -219,6 +251,7 @@
 .remedy-9,
 .remedy-10 {
     animation-name: remedy-keyframes;
+    animation-play-state: paused;
     animation-duration: 10.75s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -286,6 +319,7 @@
 .bpr-dsc-9,
 .bpr-dsc-10 {
     animation-name: bpr-dsc-keyframes;
+    animation-play-state: paused;
     animation-duration: 8.75s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -356,6 +390,7 @@
 .optimum-touch-9,
 .optimum-touch-10 {
     animation-name: optimum-touch-keyframes;
+    animation-play-state: paused;
     animation-duration: 11.25s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -426,6 +461,7 @@
 .ifd-9,
 .ifd-10 {
     animation-name: ifd-keyframes;
+    animation-play-state: paused;
     animation-duration: 7s;
     animation-delay: 0s;
     animation-timing-function: linear;
@@ -473,6 +509,9 @@
         transform: translate(210px, 42px);
     }
 }
-
-
-body {}
+.pause-animation {
+    animation-play-state: paused;     /* paused | running */
+}
+.start-automation {
+    animation-play-state: running;
+}
